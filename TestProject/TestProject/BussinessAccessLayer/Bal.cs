@@ -7,12 +7,12 @@ namespace TestProject.BussinessAccessLayer
 {
     public class Bal
     {
-        public int Addition()
+        public int Addition(int a,int b)
         {
-            int a = 10;
-            int b = 70;
-            int result = a + b;
-            return result;
+             a = 10;
+             b = 70;
+           
+            return a + b; 
         }
     }
 }
